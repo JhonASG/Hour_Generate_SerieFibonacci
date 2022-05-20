@@ -10,4 +10,4 @@ function clock() {
     root.render(valorNumber);   
 }
 
-setInterval(clock, 1000);
+setInterval(clock, 2500);

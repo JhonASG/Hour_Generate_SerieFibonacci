@@ -43,7 +43,7 @@ function SerieFibonacci () {
         <>
             <h1>{titulo}</h1>
             <h2>{hours + ':' + minutes + ':' + seconds}</h2>
-            <h3 id="sfibo"> </h3>
+            <p id="sfibo"> </p>
             <div id="containerButton">
                 <button className="FirstButton" onClick={generateSerie}>Serie Fibonacci</button>
                 <button className="ClearButton" onClick={clearSerie}>Limpiar</button>
